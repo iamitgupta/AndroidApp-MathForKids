@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:padding="10dp"
+    >
+
+    <Button
+        android:id="@+id/bt_add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       android:text="Addition"
+        android:drawableLeft="@raw/add"
+        android:textSize="30dp"
+        android:padding="5dp"
+        android:background="#2e1886"
+        android:layout_marginTop="30dp"
+        android:textColor="@color/white"
+        />
+
+    <Button
+        android:id="@+id/bt_sub"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Subtraction"
+        android:drawableLeft="@raw/subtract"
+        android:textSize="30dp"
+        android:padding="5dp"
+        android:background="#71ce37"
+        android:layout_marginTop="30dp"
+        android:textColor="@color/white"
+        />
+
+    <Button
+        android:id="@+id/bt_mul"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Colour"
+        android:drawableLeft="@raw/multiply"
+        android:textSize="30dp"
+        android:padding="5dp"
+        android:background="#2e1886"
+        android:layout_marginTop="30dp"
+        android:textColor="@color/white"
+        />
+    <Button
+        android:id="@+id/bt_div"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Division"
+        android:drawableLeft="@raw/division"
+        android:textSize="30dp"
+        android:padding="5dp"
+        android:background="#71ce37"
+        android:layout_marginTop="30dp"
+        android:textColor="@color/white"
+        android:visibility="gone"
+        />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:layout_marginTop="50dp"
+        android:text="Note: Long press for test" />
+</LinearLayout>
